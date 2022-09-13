@@ -8,4 +8,8 @@ public class NumberOperations {
         public static int sumOfDigits(int num){
             return 0;
         }
+        
+        public static boolean isPalindrome(int num){
+            return false;       
+        }
 }
