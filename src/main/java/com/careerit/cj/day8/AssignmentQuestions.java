@@ -15,7 +15,6 @@ public class AssignmentQuestions {
 
     private static int search(String[] arr,String key){
         /* Count occurrence of key in the given arr */
-
         return 0;
     }
     public static int countPalindromes(String[] arr){
