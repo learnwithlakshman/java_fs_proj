@@ -1,10 +1,9 @@
 package com.careerit.cj.ems;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EmployeeServiceImpl implements  EmployeeService {
+public class EmployeeServiceImpl implements EmployeeService {
 
   private List<Employee> employeeList = FileReaderUtil.readDataFromCsv();
 
@@ -12,59 +11,120 @@ public class EmployeeServiceImpl implements  EmployeeService {
   public List<Employee> maxPaidEmployees() {
     double maxSalary = maxSalary(employeeList);
     List<Employee> list = new ArrayList<>();
-    for(Employee emp:employeeList){
-        if(emp.getSalary() == maxSalary){
-          list.add(emp);
-        }
+    for (Employee emp : employeeList) {
+      if (emp.getSalary() == maxSalary) {
+        list.add(emp);
+      }
     }
     return list;
   }
+
   @Override
   public List<Employee> minPaidEmployees() {
-    return null;
+    double minSalary = minSalary(employeeList);
+    List<Employee> minPaidEmployees = new ArrayList<>();
+    for (Employee emp : employeeList) {
+      if (emp.getSalary() == minSalary) {
+        minPaidEmployees.add(emp);
+      }
+    }
+    return minPaidEmployees;
   }
 
   @Override
   public List<Employee> getEmployeesByCountry(String country) {
-    return null;
+    List<Employee> list = new ArrayList<>();
+    for (Employee emp : employeeList) {
+      if (emp.getCountry().equalsIgnoreCase(country)) {
+        list.add(emp);
+      }
+    }
+    return list;
   }
 
   @Override
   public List<Employee> getEmployeesSalaryBtw(double lb, double ub) {
-    return null;
+    List<Employee> list = new ArrayList<>();
+    for (Employee emp : employeeList) {
+      if (emp.getSalary() >= lb && emp.getSalary() <= ub) {
+        list.add(emp);
+      }
+    }
+    return list;
   }
 
   @Override
   public List<Employee> getEmployeesByGender(String gender) {
-    return null;
+    List<Employee> list = new ArrayList<>();
+    for (Employee emp : employeeList) {
+      if (emp.getGender().equalsIgnoreCase(gender)) {
+        list.add(emp);
+      }
+    }
+    return list;
   }
 
   @Override
   public List<Employee> getEmployeesByGenderAndCountry(String gender, String country) {
-    return null;
+    List<Employee> list = new ArrayList<>();
+    for (Employee emp : employeeList) {
+      if (emp.getGender().equalsIgnoreCase(gender) && emp.getCountry().equalsIgnoreCase(country)) {
+        list.add(emp);
+      }
+    }
+    return list;
   }
 
   @Override
   public EmployeeStatsDTO getEmployeeStats() {
-    return null;
+    return getEmployeeStatsDTO(employeeList);
   }
 
   @Override
   public EmployeeStatsDTO getEmployeeStatsByCountry(String country) {
-    return null;
+    List<Employee> list = getEmployeesByCountry(country);
+    return getEmployeeStatsDTO(list);
   }
 
-  private double maxSalary(List<Employee> list){
-    //Logic return max salary
-    return 0;
+  private EmployeeStatsDTO getEmployeeStatsDTO(List<Employee> list) {
+    int count = list.size();
+    EmployeeStatsDTO obj = new EmployeeStatsDTO();
+    obj.setCount(count);
+    obj.setMaxSalary(maxSalary(list));
+    obj.setMinSalary(minSalary(list));
+    obj.setAvgSalary(totalSalary(list) / count);
+    obj.setTotalSalary(totalSalary(list));
+    return obj;
   }
-  private double totalSalary(List<Employee> list){
-    //Logic return total salary
-    return 0;
+
+  private double maxSalary(List<Employee> list) {
+    double max = list.get(0).getSalary();
+    for (int i = 1; i < list.size(); i++) {
+      double salary = list.get(i).getSalary();
+      if (max < salary) {
+        max = salary;
+      }
+    }
+    return max;
   }
-  private double minSalary(List<Employee> list){
-    //Logic return min  salary
-    return 0;
+
+  private double totalSalary(List<Employee> list) {
+    double sum = 0;
+    for (int i = 0; i < list.size(); i++) {
+      sum += list.get(i).getSalary();
+    }
+    return sum;
+  }
+
+  private double minSalary(List<Employee> list) {
+    double min = list.get(0).getSalary();
+    for (int i = 1; i < list.size(); i++) {
+      double salary = list.get(i).getSalary();
+      if (min > salary) {
+        min = salary;
+      }
+    }
+    return min;
   }
 
 }
