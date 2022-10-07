@@ -1,0 +1,11 @@
+1. Get the employees of given location
+2. Get the total salary of the given department
+3. Get the dept stats
+           count
+           sum
+           min
+           max
+           avg - salary
+4. Get all the employee names
+5. Get name of employee,dept name,dept location of all the employees
+
