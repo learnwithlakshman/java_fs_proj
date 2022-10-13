@@ -1,11 +1,9 @@
 package com.careerit.cj.collection.list;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
-import java.util.function.ToIntFunction;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
+import java.util.stream.IntStream;
 
 public class ListExample2 {
 
@@ -31,5 +29,24 @@ public class ListExample2 {
     List<Integer> sortedList = list.stream().sorted((e1, e2) -> e1.compareTo(e2)).collect(Collectors.toList());
     System.out.println(sortedList);
 
+    List<Integer> numList = IntStream.range(1,101).boxed().collect(Collectors.toList());
+
+    List<Integer> div3List = new ArrayList<>();
+
+
+
+
+
   }
+
+  public List<Integer> getFilteredList(List<Integer> list,int divisionNumber){
+    List<Integer> temp = new ArrayList<>();
+    for(Integer ele:list){
+      if(ele % divisionNumber == 0){
+        temp.add(ele);
+      }
+    }
+    return temp;
+  }
+
 }
