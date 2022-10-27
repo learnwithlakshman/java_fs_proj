@@ -1,0 +1,238 @@
+"id","name","team_label","role","country","amount"
+1,Mayank Agarwal,PBKS,Batsman,India,12000000
+2,Liam Livingstone,PBKS,All-Rounder,England,11500000
+3,Kagiso Rabada,PBKS,Bowler,South Africa,9250000.0
+4,Shahrukh Khan,PBKS,All-Rounder,India,9000000.0
+5,Shikhar Dhawan,PBKS,Batsman,India,8250000.0
+6,Jonny Bairstow,PBKS,Wicket-Keeper,England,6750000.0
+7,Odean Smith,PBKS,All-Rounder,West Indies,6000000.0
+8,Rahul Chahar,PBKS,Bowler,India,5250000.0
+9,Arshdeep Singh,PBKS,Bowler,India,4000000.0
+10,Harpreet Brar,PBKS,All-Rounder,India,3800000.0
+11,Vaibhav Arora,PBKS,Bowler,India,2000000.0
+12,Raj Bawa,PBKS,All-Rounder,India,2000000.0
+13,Nathan Ellis,PBKS,Bowler,Australia,750000.0
+14,Prabhsimran Singh,PBKS,Wicket-Keeper,India,600000.0
+15,Rishi Dhawan,PBKS,All-Rounder,India,550000.0
+16,Bhanuka Rajapaksa,PBKS,Batsman,Sri Lanka,500000.0
+17,Sandeep Sharma,PBKS,Bowler,India,500000.0
+18,Benny Howell,PBKS,All-Rounder,England,400000.0
+19,Ishan Porel,PBKS,Bowler,India,250000.0
+20,Prerak Mankad,PBKS,All-Rounder,India,200000.0
+21,Atharva Taide,PBKS,All-Rounder,India,200000.0
+22,Ansh Patel,PBKS,All-Rounder,India,200000.0
+23,Jitesh Sharma,PBKS,Wicket-Keeper,India,200000.0
+24,Writtick Chatterjee,PBKS,All-Rounder,India,200000.0
+25,Baltej Singh,PBKS,Bowler,India,200000.0
+26,Kane Williamson,SRH,Batsman,New Zealand,14000000
+27,Nicholas Pooran,SRH,Wicket-Keeper,West Indies,10750000
+28,Washington Sundar,SRH,All-Rounder,India,8750000.0
+29,Rahul Tripathi,SRH,Batsman,India,8500000.0
+30,Romario Shepherd,SRH,All-Rounder,West Indies,7750000.0
+31,Abhishek Sharma,SRH,All-Rounder,India,6500000.0
+32,Bhuvneshwar Kumar,SRH,Bowler,India,4200000.0
+33,Marco Jansen,SRH,All-Rounder,South Africa,4200000.0
+34,Umran Malik,SRH,Bowler,India,4000000.0
+35,Abdul Samad,SRH,Batsman,India,4000000.0
+36,T Natarajan,SRH,Bowler,India,4000000.0
+37,Kartik Tyagi,SRH,Bowler,India,4000000.0
+38,Aiden Markram,SRH,Batsman,South Africa,2600000.0
+39,Sean Abbott,SRH,Bowler,Australia,2400000.0
+40,Glenn Phillips,SRH,Wicket-Keeper,New Zealand,1500000.0
+41,Shreyas Gopal,SRH,Bowler,India,750000.0
+42,Fazalhaq Farooqi,SRH,Bowler,Afghanistan,500000.0
+43,Vishnu Vinod,SRH,Wicket-Keeper,India,500000.0
+44,Priyam Garg,SRH,Batsman,India,200000.0
+45,Saurabh Dubey,SRH,Bowler,India,200000.0
+46,Jagadeesha Suchith,SRH,Bowler,India,200000.0
+47,Shashank Singh,SRH,All-Rounder,India,200000.0
+48,Ravikumar Samarth,SRH,Batsman,India,200000.0
+49,Sanju Samson,RR,Wicket-Keeper,India,14000000
+50,Prasidh Krishna,RR,Bowler,India,10000000
+51,Jos Buttler,RR,Wicket-Keeper,England,10000000
+52,Shimron Hetmyer,RR,Batsman,West Indies,8500000.0
+53,Trent Boult,RR,Bowler,New Zealand,8000000.0
+54,Devdutt Padikkal,RR,Batsman,India,7750000.0
+55,Yuzvendra Chahal,RR,Bowler,India,6500000.0
+56,Ravichandran Ashwin,RR,All-Rounder,India,5000000.0
+57,Yashasvi Jaiswal,RR,Batsman,India,4000000.0
+58,Riyan Parag,RR,All-Rounder,India,3800000.0
+59,Navdeep Saini,RR,Bowler,India,2600000.0
+60,Nathan Coulter-Nile,RR,Bowler,Australia,2000000.0
+61,James Neesham,RR,All-Rounder,New Zealand,1500000.0
+62,Karun Nair,RR,Batsman,India,1400000.0
+63,Rassie van der Dussen,RR,Batsman,"",1000000.0
+64,Obed McCoy,RR,Bowler,West Indies,750000.0
+65,Daryl Mitchell,RR,All-Rounder,New Zealand,750000.0
+66,KC Cariappa,RR,Bowler,India,300000.0
+67,Tejas Baroka,RR,Bowler,India,200000.0
+68,Kuldip Yadav,RR,Bowler,India,200000.0
+69,Dhruv Jurel,RR,Wicket-Keeper,India,200000.0
+70,Kuldeep Sen,RR,Bowler,India,200000.0
+71,Shubham Garhwal,RR,All-Rounder,India,200000.0
+72,Anunay Singh,RR,All-Rounder,India,200000.0
+73,Virat Kohli,RCB,Batsman,India,15000000
+74,Glenn Maxwell,RCB,All-Rounder,Australia,11000000
+75,Harshal Patel,RCB,All-Rounder,India,10750000
+76,Wanindu Hasaranga,RCB,All-Rounder,Sri Lanka,10750000
+77,Josh Hazlewood,RCB,Bowler,Australia,7750000.0
+78,Faf du Plessis,RCB,Batsman,South Africa,7000000.0
+79,Mohammed Siraj,RCB,Bowler,India,7000000.0
+80,Dinesh Karthik,RCB,Wicket-Keeper,India,5500000.0
+81,Anuj Rawat,RCB,Wicket-Keeper,India,3400000.0
+82,Shahbaz Ahmed,RCB,All-Rounder,India,2400000.0
+83,David Willey,RCB,All-Rounder,England,2000000.0
+84,Sherfane Rutherford,RCB,All-Rounder,West Indies,1000000.0
+85,Mahipal Lomror,RCB,All-Rounder,India,950000.0
+86,Finn Allen,RCB,Batsman,New Zealand,800000.0
+87,Jason Behrendorff,RCB,Bowler,Australia,750000.0
+88,Siddarth Kaul,RCB,Bowler,India,750000.0
+89,Karn Sharma,RCB,Bowler,India,500000.0
+90,Suyash Prabhudessai,RCB,All-Rounder,India,300000.0
+91,Chama Milind,RCB,Bowler,"",250000.0
+92,Aneeshwar Gautam,RCB,All-Rounder,India,200000.0
+93,Akash Deep,RCB,Bowler,India,200000.0
+94,Luvnith Sisodia,RCB,Wicket-Keeper,India,200000.0
+95,Rohit Sharma,MI,Batsman,India,16000000
+96,Ishan Kishan,MI,Wicket-Keeper,India,15250000
+97,Jasprit Bumrah,MI,Bowler,India,12000000
+98,Tim David,MI,All-Rounder,Singapore,8250000.0
+99,Jofra Archer,MI,All-Rounder,England,8000000.0
+100,Suryakumar Yadav,MI,Batsman,India,8000000.0
+101,Kieron Pollard,MI,All-Rounder,West Indies,6000000.0
+102,Dewald Brevis,MI,Batsman,South Africa,3000000.0
+103,Daniel Sams,MI,All-Rounder,Australia,2600000.0
+104,Tilak Varma,MI,All-Rounder,India,1700000.0
+105,Murugan Ashwin,MI,Bowler,India,1600000.0
+106,Tymal Mills,MI,Bowler,England,1500000.0
+107,Jaydev Unadkat,MI,Bowler,India,1300000.0
+108,Riley Meredith,MI,Bowler,Australia,1000000.0
+109,Fabian Allen,MI,All-Rounder,West Indies,750000.0
+110,Mayank Markande,MI,Bowler,India,650000.0
+111,Sanjay Yadav,MI,All-Rounder,India,500000.0
+112,Basil Thampi,MI,Bowler,India,300000.0
+113,Arjun Tendulkar,MI,All-Rounder,India,300000.0
+114,Ramandeep Singh,MI,All-Rounder,India,200000.0
+115,Anmolpreet Singh,MI,Batsman,India,200000.0
+116,Aryan Juyal,MI,Wicket-Keeper,India,200000.0
+117,Arshad Khan,MI,All-Rounder,India,200000.0
+118,Rahul Buddhi,MI,Batsman,India,200000.0
+119,Hrithik Shokeen,MI,All-Rounder,India,200000.0
+120,Ravindra Jadeja,CSK,All-Rounder,India,16000000
+121,Deepak Chahar,CSK,Bowler,India,14000000
+122,MS Dhoni,CSK,Wicket-Keeper,India,12000000
+123,Moeen Ali,CSK,All-Rounder,England,8000000.0
+124,Ambati Rayudu,CSK,Wicket-Keeper,India,6750000.0
+125,Ruturaj Gaikwad,CSK,Batsman,India,6000000.0
+126,Dwayne Bravo,CSK,All-Rounder,West Indies,4400000.0
+127,Shivam Dube,CSK,All-Rounder,India,4000000.0
+128,Chris Jordan,CSK,All-Rounder,England,3600000.0
+129,Robin Uthappa,CSK,Batsman,India,2000000.0
+130,Mitchell Santner,CSK,All-Rounder,New Zealand,1900000.0
+131,Adam Milne,CSK,Bowler,New Zealand,1900000.0
+132,Rajvardhan Hangargekar,CSK,All-Rounder,India,1500000.0
+133,Prashant Solanki,CSK,Bowler,India,1200000.0
+134,Devon Conway,CSK,Batsman,South Africa,1000000.0
+135,Maheesh Theekshana,CSK,Bowler,Sri Lanka,700000.0
+136,Dwaine Pretorius,CSK,All-Rounder,"",500000.0
+137,Narayan Jagadeesan,CSK,Wicket-Keeper,India,200000.0
+138,KM Asif,CSK,Bowler,India,200000.0
+139,Tushar Deshpande,CSK,Bowler,India,200000.0
+140,Subhranshu Senapati,CSK,Batsman,India,200000.0
+141,Bhagath Varma,CSK,All-Rounder,India,200000.0
+142,Simarjeet Singh,CSK,Bowler,India,200000.0
+143,Hari Nishaanth,CSK,Batsman,India,200000.0
+144,Mukesh Choudhary,CSK,Bowler,India,200000.0
+145,Shreyas Iyer,KKR,Batsman,India,12250000
+146,Andre Russell,KKR,All-Rounder,West Indies,12000000
+147,Nitish Rana,KKR,All-Rounder,India,8000000.0
+148,Varun Chakravarthy,KKR,Bowler,India,8000000.0
+149,Venkatesh Iyer,KKR,All-Rounder,India,8000000.0
+150,Shivam Mavi,KKR,All-Rounder,India,7250000.0
+151,Pat Cummins,KKR,All-Rounder,Australia,7250000.0
+152,Sunil Narine,KKR,All-Rounder,West Indies,6000000.0
+153,Umesh Yadav,KKR,Bowler,India,2000000.0
+154,Sam Billings,KKR,Wicket-Keeper,England,2000000.0
+155,Tim Southee,KKR,Bowler,New Zealand,1500000.0
+156,Alex Hales,KKR,Batsman,England,1500000.0
+157,Mohammad Nabi,KKR,All-Rounder,Afghanistan,1000000.0
+158,Ajinkya Rahane,KKR,Batsman,India,1000000.0
+159,Sheldon Jackson,KKR,Wicket-Keeper,"",600000.0
+160,Rinku Singh,KKR,Batsman,India,550000.0
+161,Ashok Sharma,KKR,Bowler,India,550000.0
+162,Chamika Karunaratne,KKR,All-Rounder,Sri Lanka,500000.0
+163,Abhijeet Tomar,KKR,Batsman,India,400000.0
+164,Anukul Roy,KKR,All-Rounder,India,200000.0
+165,Pratham Singh,KKR,Batsman,India,200000.0
+166,Rasikh Dar,KKR,Bowler,India,200000.0
+167,Ramesh Kumar,KKR,Batsman,India,200000.0
+168,Aman Khan,KKR,All-Rounder,India,200000.0
+169,Baba Indrajith,KKR,Wicket-Keeper,India,200000.0
+170,Rishabh Pant,DC,Wicket-Keeper,India,16000000
+171,Shardul Thakur,DC,Bowler,India,10750000
+172,Axar Patel,DC,All-Rounder,India,9000000.0
+173,Prithvi Shaw,DC,Batsman,India,7500000.0
+174,Mitchell Marsh,DC,All-Rounder,Australia,6500000.0
+175,Anrich Nortje,DC,Bowler,South Africa,6500000.0
+176,David Warner,DC,Batsman,Australia,6250000.0
+177,Khaleel Ahmed,DC,Bowler,India,5250000.0
+178,Chetan Sakariya,DC,Bowler,India,4200000.0
+179,Rovman Powell,DC,Batsman,West Indies,2800000.0
+180,Kuldeep Yadav,DC,Bowler,India,2000000.0
+181,Srikar Bharat,DC,Wicket-Keeper,India,2000000.0
+182,Mustafizur Rahman,DC,Bowler,Bangladesh,2000000.0
+183,Kamlesh Nagarkoti,DC,All-Rounder,India,1100000.0
+184,Mandeep Singh,DC,Batsman,India,1100000.0
+185,Lalit Yadav,DC,All-Rounder,India,650000.0
+186,Yash Dhull,DC,All-Rounder,India,500000.0
+187,Lungi Ngidi,DC,Bowler,South Africa,500000.0
+188,Tim Seifert,DC,Wicket-Keeper,New Zealand,500000.0
+189,Pravin Dubey,DC,All-Rounder,India,500000.0
+190,Ashwin Hebbar,DC,Batsman,India,200000.0
+191,Ripal Patel,DC,All-Rounder,India,200000.0
+192,Vicky Ostwal,DC,All-Rounder,India,200000.0
+193,Sarfaraz Khan,DC,All-Rounder,India,200000.0
+195,Avesh Khan,LSG,Bowler,India,10000000
+196,Marcus Stoinis,LSG,All-Rounder,Australia,9200000.0
+197,Jason Holder,LSG,All-Rounder,West Indies,8750000.0
+198,Krunal Pandya,LSG,All-Rounder,India,8250000.0
+199,Mark Wood,LSG,Bowler,England,7500000.0
+200,Quinton de Kock,LSG,Wicket-Keeper,South Africa,6750000.0
+201,Deepak Hooda,LSG,All-Rounder,India,5750000.0
+202,Manish Pandey,LSG,Batsman,India,4600000.0
+203,Ravi Bishnoi,LSG,Bowler,India,4000000.0
+204,Evin Lewis,LSG,Batsman,"",2000000.0
+205,Dushmantha Chameera,LSG,Bowler,Sri Lanka,2000000.0
+206,Krishnappa Gowtham,LSG,All-Rounder,India,900000.0
+207,Kyle Mayers,LSG,All-Rounder,West Indies,500000.0
+208,Shahbaz Nadeem,LSG,Bowler,India,500000.0
+209,Ankit Rajpoot,LSG,Bowler,India,500000.0
+210,Mohsin Khan,LSG,Bowler,India,200000.0
+211,Ayush Badoni,LSG,All-Rounder,India,200000.0
+212,Karan Sharma,LSG,All-Rounder,India,200000.0
+213,Mayank Yadav,LSG,Bowler,India,200000.0
+214,Manan Vohra,LSG,Batsman,India,200000.0
+215,Rashid Khan,GT,Bowler,Afghanistan,15000000
+216,Hardik Pandya,GT,All-Rounder,India,15000000
+217,Lockie Ferguson,GT,Bowler,New Zealand,10000000
+218,Rahul Tewatia,GT,All-Rounder,"",9000000.0
+219,Shubman Gill,GT,Batsman,India,8000000.0
+220,Mohammed Shami,GT,Bowler,India,6250000.0
+221,Yash Dayal,GT,Bowler,India,3200000.0
+222,Ravisrinivasan Sai Kishore,GT,Bowler,India,3000000.0
+223,David Miller,GT,Batsman,South Africa,3000000.0
+224,Abhinav Manohar,GT,Batsman,India,2600000.0
+225,Alzarri Joseph,GT,Bowler,West Indies,2400000.0
+226,Matthew Wade,GT,Wicket-Keeper,Australia,2400000.0
+227,Jason Roy,GT,Batsman,England,2000000.0
+228,Wriddhiman Saha,GT,Wicket-Keeper,India,1900000.0
+229,Jayant Yadav,GT,All-Rounder,India,1700000.0
+230,Vijay Shankar,GT,All-Rounder,India,1400000.0
+231,Dominic Drakes,GT,All-Rounder,West Indies,1100000.0
+232,Varun Aaron,GT,Bowler,India,500000.0
+233,Gurkeerat Singh Mann,GT,All-Rounder,India,500000.0
+234,Noor Ahmad,GT,Bowler,Afghanistan,300000.0
+235,Darshan Nalkande,GT,All-Rounder,India,200000.0
+236,Sai Sudharsan,GT,All-Rounder,India,200000.0
+237,Pradeep Sangwan,GT,All-Rounder,India,200000.0
+194,KL Rahul,LSG,Wicket-Keeper,India,17000000

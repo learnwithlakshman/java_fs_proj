@@ -2,6 +2,7 @@ package com.careerit.cj.collection.list.player;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 public class PlayerManager {
@@ -14,7 +15,7 @@ public class PlayerManager {
     playerOfCSK.stream().forEach(e -> {
       System.out.println(e);
     });
-
+    System.out.println(getTeamNames(list));
 
   }
 
@@ -103,5 +104,9 @@ public class PlayerManager {
 
   private static PlayerDto convertPlayerToPlayerDto(Player player) {
     return new PlayerDto(player.getName(), player.getRole(), player.getAmount());
+  }
+
+  private static Set<String> getTeamNames(List<Player> list){
+      return list.stream().map(player->player.getTeamLabel()).collect(Collectors.toSet());
   }
 }
