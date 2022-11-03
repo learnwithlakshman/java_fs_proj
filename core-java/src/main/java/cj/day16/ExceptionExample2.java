@@ -1,6 +1,7 @@
 package cj.day16;
 
-import com.careerit.cj.playerstat.util.CsvReaderUtil;
+import cj.playerstat.util.CsvReaderUtil;
+
 
 import java.io.IOException;
 import java.net.URISyntaxException;

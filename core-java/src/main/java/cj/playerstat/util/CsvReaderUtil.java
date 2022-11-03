@@ -1,7 +1,8 @@
 package cj.playerstat.util;
 
 
-import com.careerit.cj.playerstat.domain.Player;
+import cj.playerstat.domain.Player;
+
 
 import java.nio.file.Files;
 import java.nio.file.Path;

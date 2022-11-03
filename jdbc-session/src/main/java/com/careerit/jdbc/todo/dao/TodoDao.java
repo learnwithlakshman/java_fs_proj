@@ -8,4 +8,6 @@ public interface TodoDao {
     Todo addTodo(Todo todo);
     List<Todo> getActiveTodos();
     boolean changeStatus(int id);
+
+
 }
