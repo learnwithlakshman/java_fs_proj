@@ -7,6 +7,10 @@ fetch("json/countries.json").then(json=>json.json())
        countries = res;
 });
 
+fetch("http://localhost:8080/api/v1/contact/all").then(json=>json.json()).then(res=>{
+        console.log(res);
+})
+
 countryId.addEventListener('keyup',(event)=>{
         
     if(event.keyCode==13 && countryId.value!=""){
