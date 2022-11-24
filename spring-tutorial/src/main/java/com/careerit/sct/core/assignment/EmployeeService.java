@@ -1,20 +1,28 @@
 package com.careerit.sct.core.assignment;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class EmployeeService {
 
-  public void showDetails(List<Employee> empList) {
-    for (Employee emp : empList) {
-      System.out.println(FormatterFactory.getFormatter(emp.getName()).format(emp.getName()));
-      System.out.println(FormatterFactory.getFormatter(emp.getDob()).format(emp.getDob()));
-      System.out.println(FormatterFactory.getFormatter(emp.getHeight()).format(emp.getHeight()));
-      System.out.println(FormatterFactory.getFormatter(emp.getSalary()).format(emp.getSalary()));
-    }
-    // name should display upper case
-    // date yyyy-MM-dd
-    // double only it have two decimal places ex 67888.98
+  @Autowired
+  private FormatterFactory formatterFactory;
 
+  public List<Object> formattedData(List<Employee> empList) {
+    List<Object> list = new ArrayList<>();
+    for (Employee emp : empList) {
+      list.addAll(List.of(
+          formatterFactory.getFormatter(emp.getName()).format(emp.getName()),
+          formatterFactory.getFormatter(emp.getDob()).format(emp.getDob()),
+          formatterFactory.getFormatter(emp.getHeight()).format(emp.getHeight()),
+          formatterFactory.getFormatter(emp.getSalary()).format(emp.getSalary())
+      ));
+    }
+    return list;
   }
 }
 

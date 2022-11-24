@@ -1,16 +1,25 @@
 package com.careerit.sct.core.assignment;
 
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Component;
+
 import java.time.LocalDate;
 
+@Component
+@RequiredArgsConstructor
 public class FormatterFactory {
 
-      public static Formatter getFormatter(Object obj){
+      private final Dateformatter dateformatter;
+      private final StringFormatter stringFormatter;
+      private final NumberFormatter numberFormatter;
+
+      public  Formatter getFormatter(Object obj){
             if(obj instanceof Number){
-                  return null;
+                  return numberFormatter;
             }else if(obj instanceof LocalDate){
-                  return null;
+                  return dateformatter;
             }else if(obj instanceof  String){
-                  return null;
+                  return stringFormatter;
             }else{
                   return new StringFormatter();
             }
