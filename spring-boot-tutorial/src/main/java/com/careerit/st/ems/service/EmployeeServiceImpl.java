@@ -69,11 +69,11 @@ public class EmployeeServiceImpl implements EmployeeService {
   }
 
   @Override
-  public List<Employee> search(String str) {
+  public Page<Employee> search(PageRequest pageRequest,String str) {
     if (!StringUtils.hasText(str)){
-        return employeeRepo.findAll();
+        return employeeRepo.findAll(pageRequest);
     }else{
-        return employeeRepo.search(str);
+        return employeeRepo.search(pageRequest,str);
     }
   }
 

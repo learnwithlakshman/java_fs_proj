@@ -15,6 +15,6 @@ public interface EmployeeService {
     public boolean deleteEmployee(Long id);
     public Employee getEmployee(Long id);
     public Employee updateEmployee(Employee employee);
-    public List<Employee> search(String str);
+    public Page<Employee> search(PageRequest pageRequest,String str);
     public void deleteAllEmployees();
 }
